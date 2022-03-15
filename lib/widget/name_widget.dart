@@ -9,7 +9,7 @@ class Name extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 25!, vertical: 17!),
+      padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 17),
       decoration: BoxDecoration(
         color: const Color(0xffeee2e3),
         borderRadius: BorderRadius.circular(13),
@@ -21,7 +21,7 @@ class Name extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10!, vertical: 10!),
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                   decoration: BoxDecoration(
                     color: const Color(0xFFDADBDF),
                     borderRadius: BorderRadius.circular(8),
@@ -34,7 +34,7 @@ class Name extends StatelessWidget {
                                 color: Color(0xFFF7F9FB),
                                 fontSize: 17,
                                 height: 1.5,
-                                fontWeight: FontWeight.normal)),
+                                fontWeight: FontWeight.bold)),
                         SizedBox(width: 89),
                       ],
                     ),
@@ -42,7 +42,7 @@ class Name extends StatelessWidget {
                 ),
                 const SizedBox(width: 50),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10!, vertical: 10!),
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                   decoration: BoxDecoration(
                     color: const Color(0xFFDADBDF),
                     borderRadius: BorderRadius.circular(8),
@@ -53,9 +53,9 @@ class Name extends StatelessWidget {
                         Text("الاسم",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                color: Color(0xFFF7F9FB),
+                                color: Color(0xFF000000),
                                 fontSize: 17,
-                                fontWeight: FontWeight.normal)),
+                                fontWeight: FontWeight.bold)),
                         SizedBox(width: 33),
                       ],
                     ),

@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
               style: TextStyle(
                   color: Color(0xFFF7F9FB),
                   fontSize: 17,
-                  fontWeight: FontWeight.normal)),
+                  fontWeight: FontWeight.bold)),
           centerTitle: true,
           backgroundColor: const Color(0xFFD84B71),
         ),
@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(
                       color: Color(0xFFF7F9FB),
                       fontSize: 17,
-                      fontWeight: FontWeight.normal)),
+                      fontWeight: FontWeight.bold)),
             ),
           ),
           Container(
